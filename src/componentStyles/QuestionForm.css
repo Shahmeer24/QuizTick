@@ -1,0 +1,79 @@
+
+.form-input {
+  background-color: #222;
+  border-radius: 12px;
+  width: 50vw;
+  padding: 2rem;
+  position: sticky;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  /* padding:1rem; */
+}
+.form-actions {
+  display: flex;
+  width: 22rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input, select, textarea{
+    background-color: #222;
+    color: #fff;
+}
+
+.secondary-heading{
+    color: #fff;
+}
+
+#question-text {
+  max-width: 40rem;
+  height: 6rem;
+  resize: none;
+}
+
+#question-type {
+  width: 12rem;
+  margin-right: 2rem;
+}
+
+#question-points {
+  width: 12.2rem;
+}
+
+#option-text {
+  width: 20rem;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+}
+
+.form-btn {
+  width: 1rem;
+  padding: 0.2rem;
+  background: none;
+  border: none;
+}
+.form-btn:focus,
+.form-btn:active {
+  box-shadow: none;
+}
+
+#btn-addOption {
+  width: 12rem;
+  padding: 0.4rem;
+}
+
+.btn-action {
+  width: 10rem;
+  padding: 0.6rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}

@@ -1,0 +1,7 @@
+.btn-theme{
+    font-size:1.8rem;
+    width:1rem;
+}
+.btn-theme:focus, .btn-theme:active{
+    box-shadow:none;
+}

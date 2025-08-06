@@ -1,0 +1,14 @@
+.loginContainer{
+    max-width:500px;
+    min-height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 999999999;
+}
+
+.pico-icon{
+    margin-right: 6px;
+    margin-bottom: -2px;
+}
+

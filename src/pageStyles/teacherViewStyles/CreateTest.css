@@ -1,0 +1,109 @@
+body, /*Hiding Scrollbar*/
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.main-container {
+  margin: 2rem;
+  width: 80vw;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.header-container button {
+  width: 10vw;
+  min-width: 100px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: stretch;
+}
+
+.card-item-list {
+  max-height: 24rem;
+  overflow-y: scroll;
+  padding: 0.4rem;
+}
+
+.card-item {
+  background-color: #222;
+  color: #fff;
+  min-height: 10rem;
+  max-width: 22rem;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+}
+.card-text p {
+  color: #fff !important;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-btn {
+  width: 4rem;
+  margin: 2px;
+  padding: 0;
+  background: none;
+  border: none;
+  color: #999;
+}
+.card-btn:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  color: #10c291;
+}
+.card-btn:focus,
+.card-btn:active {
+  box-shadow: none;
+}
+
+#card-question-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.input-ele {
+  width: 11rem !important;
+  margin-right: 1rem;
+  background-color: transparent;
+  color: #999;
+}
+
+.vertical-line {
+  width: 0.4px;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.192);
+}
+html[data-theme="light"] .vertical-line {
+  background-color: rgba(0, 0, 0, 0.274);
+}
+
+#btn-preview {
+  width: 2rem !important;
+}
